@@ -1,6 +1,6 @@
 import praw
 
-reddit = praw.reddit("bot")
+reddit = praw.reddit("bot0")
 
 url = "https://www.reddit.com/r/funny/comments/3g1jfi/buttons/"
 submission = reddit.submission(url=url)
