@@ -86,13 +86,13 @@ url = 'https://www.reddit.com/r/BotTown2/comments/r0yi9l/main_discussion_thread/
 submission=reddit.submission(url=url)
 
 
-for i in range(50):
+'''for i in range(50):
     submission.reply(generate_comment())
-    time.sleep(60)
+    time.sleep(60)'''
 
-for i in range(50):
+for i in range(60):
     submission.comments[i].reply(generate_comment())
-    time.sleep(60)
+    time.sleep(30)
 
 print('='*40)
 print('Finished')
