@@ -24,7 +24,7 @@ reddit = praw.Reddit(
 ########################################
 # Method II: Include the login details in a `praw.ini` file
 # See: https://praw.readthedocs.io/en/latest/getting_started/configuration/prawini.html
-reddit = praw.Reddit('bot0', user_agent='cs_40')
+reddit = praw.Reddit('Bidenbot0', user_agent='cs_40')
 
 # NOTE:
 # For this class, you must ALWAYS use Method II.

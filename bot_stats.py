@@ -8,10 +8,10 @@ import pprint
 # WARNING:
 # If you include any credential information in your final submission,
 # you will receive NEGATIVE POINTS on your lab!!!
-reddit = praw.Reddit('bot0',user_agent='cs_40')
+reddit = praw.Reddit('Bidenbot0',user_agent='cs_40')
 
 # connect to the "Main Discussion Thread" reddit submission
-submission = reddit.submission(url='https://old.reddit.com/r/BotTown/comments/qqmr8l/main_discussion_thread/')
+submission = reddit.submission(url='https://www.reddit.com/r/BotTown2/comments/r0yi9l/main_discussion_thread/')
 
 # FIXME:
 # Click the "view more comments" buttons in the reddit submission in order to download all comments.
